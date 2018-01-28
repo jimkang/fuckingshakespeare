@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Vesper+Libre';
+
 html {
   height: 100%;
 }
@@ -12,6 +14,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;  
+}
+
+h1 {
+  font-family: 'Vesper Libre', Georgia, serif;
 }
 
 section {
@@ -34,11 +40,13 @@ li {
 }
 
 a:link {
+  font-family: 'Vesper Libre', Georgia, serif;  
   color: black;
   text-decoration: none;
 }
 
 a:visited {
+  font-family: 'Vesper Libre', Georgia, serif;  
   color: #252528;
 }
 
@@ -64,7 +72,7 @@ li.pane {
 }
 
 .entry-meta {
-  color: hsl(341, 10%, 20%);
+  font-family: 'Vesper Libre', Georgia, serif;
   font-weight: bold;
 }
 
